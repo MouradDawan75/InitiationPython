@@ -1,0 +1,32 @@
+1) Affichez tous les nombres de 1 à 10 (inclus) -> fonction range()
+2) Affichez tous les nombres pairs de 1 à 10 (inclus) -> fonction range()
+3) Affichez un menu:
+
+choix = input("""
+    Menu:
+    Votre choix:
+    1) Convertir minutes en heures
+    2) Quitter
+
+    """)
+
+    # si choix == 1 -> demandez la saisie du nombre de minutes à convertir. Affichez le résutat. 
+       Ex: 90 -> affichez 90m = 1h 30
+    # tant que choix est différent de 2, le menu s'affiche
+
+4) Affichez un menu:
+
+operation = input(""""
+
+Choisir une opération:
+- Addition: tapez a
+- Soustraction: tapez s
+- Multiplication: tapez m
+- Division: tapez d
+- Quitter: tapez q
+
+""")
+
+Tant que le choix saisi n'est pas valide, l'utilisateur doit saisi un autre
+Tant que choix est différent de q, le menu s'affiche
+Si choix est valide, demandez la saisie de 2 nombres, affichez le résultat selon l'opération choisie

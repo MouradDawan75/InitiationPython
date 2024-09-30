@@ -1,0 +1,4 @@
+1) Lire un nombre saisi au terminal. Afficher si 
+le nombre est pair ou impair
+2) Lire un mot saisi au terminal. 
+Afficher si le mot contient ou pas la lettre e.
