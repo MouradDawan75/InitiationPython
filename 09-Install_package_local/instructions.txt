@@ -1,0 +1,5 @@
+Pour installer un module en local, en utilise la focntion setup définie dans le module setuptools.
+1- Créer un fichier en dehors du package setupt.py
+2- Mettre en place un configuration
+3- Ouvrir l'invite de commande de windows pointant vers le fichier setup.py et exécuter la commande suivante:
+pip install . 

@@ -1,0 +1,7 @@
+setup.py
+monpackage/__init__.py
+monpackage/mesfonctions.py
+monpackage.egg-info/PKG-INFO
+monpackage.egg-info/SOURCES.txt
+monpackage.egg-info/dependency_links.txt
+monpackage.egg-info/top_level.txt
