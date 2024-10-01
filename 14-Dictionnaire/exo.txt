@@ -1,0 +1,5 @@
+1) Demandez la saisie d'un mot. Affichez un dictionnaire dont les clés sont les lettres du mot et les valeurs sont
+le nombre de chque ettre dans le mot. Ex: test -> {'t':2, 'e':1, 's': 1}
+
+2) Définir une fonction qui prend en paramètre une liste d'entiers et qui renvoie un dict dont les clés sont 
+les éléments de la liste et les valeurs sont pair ou impair selon la parité de l'élément en question
