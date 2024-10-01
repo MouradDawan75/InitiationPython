@@ -1,3 +1,20 @@
 1) Définir une fonction qui renvoie la somme d'une liste d'entiers
 2) Définir une fonction qui renvoie la moyenne d'une liste d'entiers
 3) Définir une fonction qui renvoie l'élément le plus petit d'une liste d'entiers
+4) Ecrire une fonction qui affiche la table de multiplication d'un nombre, où le premier et le dernier multiple
+    sont des paramètres de la fonction. Ex: table_multiplication(11,1,13) -> affichera:
+    11 x 1 = 11
+    11 x 2 = 22
+    .
+    .
+    .
+    11 x 13 = 143
+
+5) On souhaite afficher un menu:
+    Votre choix: 
+  1) Convertir heures en minutes -> Ex: nombre saisi 90 -> affichez 90m = 1h 30m
+  2) Convertir minutes en heures -> Ex: nombre saisi 6 -> affichez 6h = 180m
+  3) Quitter
+  - Tant que choix est différent de 3 -> le programme continu son exécution
+  - Pour les choix 1 et 2, codez les fonctionnalités suivantes -> 
+    convertir_minutes_en_heures(minutes) -> convertir_heures_en_minutes(heures)
