@@ -79,7 +79,7 @@ table_multiplication(11,1,13)
 #       return choix
 
 
-from myfonctions import convertir_heures_en_minutes, convertir_minutes_en_heures, afficher_menu, demander_saisie_nombre_valide
+
 
 while True:
 
@@ -106,6 +106,10 @@ while True:
 
 
 # Code optimisé:
+# Optimiser un code complèxe en Python c'est le découper en petites fonctions où chaque fonction gère 
+# un besoin particulier et éventuellement déclarer les différentes fonctions dans un module à part.
+
+from myfonctions import convertir_heures_en_minutes, convertir_minutes_en_heures, afficher_menu, demander_saisie_nombre_valide
 
 while True:
 
