@@ -125,7 +125,7 @@ d = {
 result = {v:k for k,v in d.items()}
 print(result)
 
-# Autre synatxe:
+# Autre syntaxe:
 
 result1 = {(v,k) for k,v in d.items()}
 print(result1)
