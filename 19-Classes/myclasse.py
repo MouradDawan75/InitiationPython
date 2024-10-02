@@ -128,12 +128,31 @@ compte2 = CompteBancaire('sqdqsd15', 150000000)
 print(compte1 == compte2)
 
 # Exo: A la racine du projet principal:
-# Créez un package nommé myclasses contenant produit contenant Produit
+# Créez un package nommé myclasses contenant le module produit dans lequel on crée la classe Produit
 # Un produit possède un id, une description et un prix
 # On souahite afficher tous les attributs d'un produit
 # 2 produits sont égaux si les 2 possèdent le mm id
 
 # Importez et testez cette classe dans le module en cours.
+
+# Le package myclasses et le fichier en cours ne sont pas au mm niveau -> package non visible par Python
+# Solution: ajouter le chemin du dossier principal dans sys.path
+
+import sys
+import os
+
+chemin_dossier_en_cours = os.path.dirname(__file__) # c:\.....\19-Classes
+chemin_dossier_principal = os.path.dirname(chemin_dossier_en_cours) # c:\.....\InitiationPython
+sys.path.append(chemin_dossier_principal)
+
+from myclasses.produit import Produit
+
+p = Produit(1,'PC Dell', 1500)
+print(p)
+
+p1 = Produit(1, 'Ecran HP', 99)
+
+print(p == p1)
 
 
 
