@@ -1,5 +1,5 @@
 from modelobjet import Vendeur,Technicien,Representant
-from fonctions import insert,afficher_salaire,afficher_tous_les_employes,salaire_moyen
+from fonctions import insert,afficher_salaire_de_chaque_employe,afficher_tous_les_employes,salaire_moyen
 
 
 while True:
@@ -15,17 +15,37 @@ while True:
                     """)
     
     if choix == '5':
+        print('Fin du programme.............')
         break
 
     match choix:
         case '1':
-            pass
+            afficher_tous_les_employes()
 
         case '2':
-            pass
+            employe = None
+            nom = input('Nom: ')
+            prenom = input('Prénom: ')
+            age = int(input('Age: '))
+            rep = input('Vender, Représentant ou Technicien ? tapez (v, r ou t)')
+            if rep == 'v':
+                ca = float(input('CA: '))
+                employe =Vendeur(nom,prenom,age,ca)
+
+            if rep == 'r':
+                ca = float(input('CA: '))
+                employe = Representant(nom,prenom,age,ca)
+
+            if rep == 't':
+                heures = float(input("Nombre d'heures: "))
+                employe = Technicien(nom,prenom,age,heures)
+
+            insert(employe)
+            print('Employé inséré........')
+
 
         case '3':
-            pass
+            afficher_salaire_de_chaque_employe()
 
         case '4':
-            pass
+            print(f"Le salaire moyen est: {salaire_moyen()}")
