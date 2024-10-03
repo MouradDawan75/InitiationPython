@@ -3,7 +3,8 @@ Ajoutez un package nommé repositories contenant le module de focntions produitr
 Définir les fcts suivantes:
 
 def init():
-   créer la table produit + insertion de 2 ou p produitrepository
+    créer une base de données dans le dossier principal
+   créer la table produit + insertion de 2 ou p produits
    Fct exécutée qu'une seule fois
 
 def get_all(chemin_database) -> list[Produit]
@@ -16,7 +17,7 @@ def update(chemin_database, p:Produit)
 
 def delete(chemin_database, id:int)
 
-Ajoutez un conf pour les logs -> le fichier des logs sera généré dans le dossier principal
+Ajoutez une conf pour les logs -> le fichier des logs sera généré dans le dossier principal
 
 import logging
 
@@ -32,7 +33,7 @@ logging.basicConfig(
     datefmt="%d/%m/%Y - %H:%M"
 )
 
-Toutes les opérations et les erreurs seront logguées dans le ficiers des logs
+Toutes les opérations et les erreurs seront logguées dans le fichiers des logs
 
 # 2- 
 A la racine du dossier principal ajoutez le fichier main.py et affichez un menu pour chaque fonctionnalité plus
