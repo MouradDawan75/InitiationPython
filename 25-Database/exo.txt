@@ -1,0 +1,71 @@
+# 1 - A la racine du projet:
+Ajoutez un package nommé repositories contenant le module de focntions produitrepository.py.
+Définir les fcts suivantes:
+
+def init():
+   créer la table produit + insertion de 2 ou p produitrepository
+   Fct exécutée qu'une seule fois
+
+def get_all(chemin_database) -> list[Produit]
+
+def get_produit_by_id(chemin_database, id) -> Produit
+
+def insert(chemin_database, p:Produit)
+
+def update(chemin_database, p:Produit)
+
+def delete(chemin_database, id:int)
+
+Ajoutez un conf pour les logs -> le fichier des logs sera généré dans le dossier principal
+
+import logging
+
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - [%(levelname)s] - %(filename)s - %(message)s",
+    filename="app.log", # si fichier inexistant -> il sera crée par la fct
+    filemode='a',
+    encoding='utf-8',
+
+    # formattage de la date
+    datefmt="%d/%m/%Y - %H:%M"
+)
+
+Toutes les opérations et les erreurs seront logguées dans le ficiers des logs
+
+# 2- 
+A la racine du dossier principal ajoutez le fichier main.py et affichez un menu pour chaque fonctionnalité plus
+le choix quitter.
+
+while True:
+
+    choix = input("""
+        Choisir opération:
+        1- Afficher tous les produits
+        2- Rechercher un produit par son id
+        3- Insérer un produit
+        4- Mettre à jours un produit
+        5- Supprimer un produit
+        6 - Quitter
+        """)
+
+    if choix == '6:
+     print('Fin du programme....)
+     break
+
+    macth choix:
+        case '1:
+            pass
+
+        case '2:
+            pass
+
+        case '3:
+            pass
+
+        case '4:
+            pass
+
+        case '5:
+            pass
