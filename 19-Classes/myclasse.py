@@ -154,7 +154,7 @@ p1 = Produit(1, 'Ecran HP', 99)
 
 print(p == p1)
 
-
+print(p1.__dict__) # __dict__: permet de convertir un objet en dict.
 
 
 

@@ -1,0 +1,36 @@
+>>>> fihcier: demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+contenu de demo.txt
+>>>> fihcier: myfile.txt
+ceci est le contenu du fichierceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier
+ceci est le contenu du fichier

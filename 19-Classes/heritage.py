@@ -1,6 +1,9 @@
 
 class Animal:
 
+    """Classe mère qui contient les éléments communs aux classes filles
+    """
+
     def __init__(self,nom,age) -> None:
         self.nom = nom
         self.age = age
