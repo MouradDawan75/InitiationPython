@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "description": "PC Dell",
+        "prix": 1500.0
+    },
+    {
+        "id": 2,
+        "description": "Ecran HP",
+        "prix": 99.0
+    },
+    {
+        "id": 3,
+        "description": "new_souris",
+        "prix": 88.0
+    }
+]

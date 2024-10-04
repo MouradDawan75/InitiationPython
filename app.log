@@ -1,0 +1,24 @@
+04/10/2024 - 09:36 - [INFO] - produitrepository.py - Table produit créée........
+04/10/2024 - 09:37 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:37 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:37 - [INFO] - produitrepository.py - Produit avec id = 1 trouvé.
+04/10/2024 - 09:38 - [INFO] - produitrepository.py - Produit Id: 1000 - Description: Souris - Prix: 35 inséré en base.
+04/10/2024 - 09:38 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:39 - [INFO] - produitrepository.py - Produit Id: 4 - Description: new_Souris - Prix: 55 maj en base.
+04/10/2024 - 09:39 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:40 - [INFO] - produitrepository.py - Produit avec id=4 supprimé
+04/10/2024 - 09:40 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:40 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:40 - [INFO] - produitrepository.py - Export json ok........
+04/10/2024 - 09:54 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:54 - [INFO] - produitrepository.py - Produit avec id = 2 trouvé.
+04/10/2024 - 09:54 - [INFO] - produitrepository.py - Produit Id: 5000 - Description: TV samsung - Prix: 999.0 inséré en base.
+04/10/2024 - 09:54 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Produit avec id = 5 trouvé.
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Produit avec id=5 supprimé
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Produit avec id = 3 trouvé.
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Produit Id: 3 - Description: new_souris - Prix: 88.0 maj en base.
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Lecture de tous les produit OK
+04/10/2024 - 09:55 - [INFO] - produitrepository.py - Export json ok........

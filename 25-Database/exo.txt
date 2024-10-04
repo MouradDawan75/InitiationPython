@@ -1,5 +1,5 @@
 # 1 - A la racine du projet:
-Ajoutez un package nommé repositories contenant le module de focntions produitrepository.py.
+Ajoutez un package nommé repositories contenant le module de fonctions produitrepository.py.
 Définir les fcts suivantes:
 
 def init():

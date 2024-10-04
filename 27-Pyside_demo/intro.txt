@@ -1,0 +1,13 @@
+Qt est un framework pour créer des interfaces graphiques pour mobile et desktop prévu initialement à c++.
+
+Pour l'utiliser dans Python, on doit installer des modules externes (Bindings) via le pip:
+
+PyQt6: nécessite une licence
+
+PySide6: gratuit -> devenu le binder officiel de Python
+
+# pip install pyside6   -> pyside6 installera automatiquement le framework Qt
+
+# Dans le dossier de PySide6 - myenv/LIB/site-packages/pyside6/designer.exe (créer un raccourcis vers ce fichier)
+
+# Dans Vs Code, ajouter l'extension Qt For Python
